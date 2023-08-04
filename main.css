@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    background-color: blue
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container-flex {
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+
+form {
+    font-size: x-large;
+}
+
+.form-cadastro {
+    margin-bottom: 16px;
+} 
+
+.form-cadastro label {
+    font-weight: bolder;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+input {
+    font-size: 20px;
+    margin: 5px;
+    width: 100%;
+    display: block;
+    padding: 3px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.error {
+    font-size: 20px;
+    color: red;
+}
